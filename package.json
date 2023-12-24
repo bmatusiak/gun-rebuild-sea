@@ -1,0 +1,13 @@
+{
+  "name": "gun-rebuild-sea",
+  "version": "0.0.0",
+  "description": "rebuild sea with browserify",
+  "scripts": {
+    "postinstall": "node post-install.js"
+  },
+  "author": "",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "gun": "*"
+  }
+}
