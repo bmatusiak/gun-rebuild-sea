@@ -7,7 +7,7 @@ var jobs = [];
 
 
 jobs.push((next) => {
-    cp.exec('npx browserify ./sea.js -o ./sea.js', { cwd: gunDIR }, (err, output) => {
+    cp.exec('npx browserify ./sea.js -s SEA --no-builtins --bare --node -o ./sea.js', { cwd: gunDIR }, (err, output) => {
         next(err)
     })
 })
